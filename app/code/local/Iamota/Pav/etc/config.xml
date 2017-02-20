@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Iamota_Pav>
+            <version>1.0.0.0</version>
+            <depends />
+        </Iamota_Pav>
+    </modules>
+    <global>
+        <models>
+            <pav>
+                <class>Iamota_Pav_Model</class>
+            </pav>
+            <paypal>
+                <rewrite>
+                    <express_checkout>Iamota_Pav_Model_Express_Checkout</express_checkout>
+                </rewrite>
+            </paypal>
+        </models>
+        <helpers>
+            <pav>
+                <class>Iamota_Pav_Helper</class>
+            </pav>
+        </helpers>
+    </global>
+</config>

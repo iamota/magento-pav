@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Iamota_Pav>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Iamota_Pav>
+    </modules>
+</config>
